@@ -1,0 +1,9 @@
+@counter-style emoji-bullets {
+    system: cyclic;
+    symbols: "\1F680""\1F436""\1F60E""\1F984";
+    suffix: " ";
+  }
+  
+  ul li {
+    list-style-type: emoji-bullets;
+  }
